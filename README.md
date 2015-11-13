@@ -9,3 +9,13 @@ The front end is in `ui` and setup to build with `stack` and `ghcjs`.
 
 1. stack
 2. nodejs
+
+## Branches:
+
+### `master`
+
+The `master` branch will be minimal -- just a normal Haskell project with a `ui` folder containing a stack-buildable GHCJS project.
+
+### `servant`
+
+The `servant` branch includes a minimal server written in Servant that serves files out of the `ui/assets/` directory.
