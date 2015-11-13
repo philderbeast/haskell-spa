@@ -1,6 +1,8 @@
 module Main where
 
-import Lib
+import Api
 
 main :: IO ()
-main = someFunc
+main = do
+  putStrLn "Running application..."
+  runApp
