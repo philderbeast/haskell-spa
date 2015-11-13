@@ -5,6 +5,7 @@ module Lib
 
 import GHCJS.Foreign ()
 import GHCJS.Types
+import GHCJS.DOM
 
 foreign import javascript unsafe "window.alert($1)" js_alert :: JSString -> IO ()
 
